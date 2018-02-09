@@ -5,13 +5,15 @@
 
 <?php
 
-$age = "garçon";
+$sexe = "fille";
+echo $bonjour = ($sexe == "fille") ? bonjour madame : salut mec;
 
-$majeur = ($age == "fille") ? "bonjour madame" : "bonjour monsieur";
-
-echo $majeur
-
+else
+{
+  echo "marche pas"
+}
 ?>
+
 
   </body>
 </html>

@@ -1,0 +1,24 @@
+<html>
+  <head>Formulaire</head>
+
+  <body>
+
+
+
+
+<?php
+  $age = 40;
+  $sexe = "femme"
+
+    if ($age >= 21 and $age <= 40)
+       {
+      echo "Bonjour, bienvenue parmi nous!"
+       }
+  else
+     {
+	   echo "Désolé, vous ne remplissez pas les critères de sélection."
+     }
+?>
+
+  </body>
+</html>
